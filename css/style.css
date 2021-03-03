@@ -1,0 +1,186 @@
+/*   Jeff Bohn  3/3/2021   Lab #9   CSS Frameworks   */
+
+
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.skeleton{
+    margin-left: 10%;
+    font-size: medium;
+}
+
+  /* Top Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .topSection{
+    background-image: url('../images/sky.jpg');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 5rem;
+    min-height: 550px;
+    margin-bottom: 8rem;
+
+  }
+  .hero-heading {
+    margin-top: 20vh;
+  font-size: 2.5rem;
+  }
+  .u-full-width{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+/*______Second Section______*/
+
+  .secondSection{
+    margin: .5em;
+    padding-bottom: 3em; 
+    padding-top: 3em;
+    min-width: 100%;
+  }
+  .secondSectionImg{
+   border-radius: 50%;
+   margin-left: 30%;
+  }
+
+
+
+  
+ /*______Bottom Section______*/
+
+  .bottomSection {
+    background-image: url('../images/sky1.jpg');
+    background-size: cover;
+    color: white;
+    height: 36vh;
+    margin-top: 10vh;
+    padding-top: 10vh;
+  }
+  
+  .bottomSectionH3 h4{
+    font-size: 1.3em;
+  }
+  .section-heading{
+    font-size: 1.8em;
+  }
+.btnCustom{
+    margin: .5em;
+}
+ 
+ 
+  
+
+
+
+  /*__________Bigger than 550____________*/
+
+  @media (min-width: 550px) {
+    .topSection{
+        background-size: cover;
+        color: #fff;
+        padding-bottom: 5rem;
+        min-height: 650px;
+      }
+    .hero-heading {
+        margin-top: 20vh;
+      font-size: 2.6rem;
+    }
+    .secondSection{
+        margin-left:auto;
+        margin-right: auto;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+      .secondSectionImg{
+        border-radius: 50%;
+        margin-left: 7%;
+      }
+      .skeleton{
+        margin-left: 22%;
+    }
+    }
+
+  
+  /*__________Bigger than 750____________*/
+
+  @media (min-width: 750px) {
+    .topSection{
+        background-size: cover;
+        color: #fff;
+        padding-bottom: 5rem;
+        min-height: 750px;
+    }
+      .hero-heading {
+        margin-top: 20vh;
+       font-size: 3.1rem;
+    }
+    .secondSection{
+        margin-left:auto;
+        margin-right: auto;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        max-width: 40vw;
+      }
+      .secondSectionImg{
+        border-radius: 50%;
+        margin-left: 30%;
+       }
+       p{
+        font-size: 1.2em;
+    }
+    .bottomSectionH3 h3{
+        font-size: 1.4em;
+    }
+    .section-heading{
+        font-size: 2.2em;
+      }
+    .btnCustom{
+        margin: .9em;
+  }
+  .skeleton{
+    margin-left: 30%;
+  }
+}
+
+/*__________Bigger than 1000____________*/
+
+  @media (min-width: 1000px) {
+    .topSection{
+        background-size: cover;
+        color: #fff;
+        padding-bottom: 5rem;
+        min-height: 1150px;
+      }
+      .hero-heading {
+        margin-top: 20vh;
+      font-size: 3.3rem;
+    }
+    .secondSection{
+        margin-left:auto;
+        margin-right: auto;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        min-width: 65%;
+      }
+      .secondSectionImg{
+        border-radius: 50%;
+        margin-left: 30%;
+       }
+      p{
+          font-size: 1.3em;
+      }
+      .bottomSection {
+        background-image: url('../images/sky1.jpg');
+        background-size: cover;
+        height: 40vh;
+      }
+      .bottomSectionH3 h3{
+        font-size: 1.6em;
+    }
+    .skeleton{
+        margin-left: 40%;
+    }
+  }
